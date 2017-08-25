@@ -7,7 +7,7 @@ Mplus files will all be sent to there and run from there.
 It is best to choose an empty directory or at least one with no existing mplus scripts.")
 tempDir<- choose.dir()
 #Load data
-dataURL <- "http://raw.github.com/pdparker/ESEM/master/ESEM_SIM.Rdata"
+dataURL <- "https://github.com/kbr3/ESEM/blob/e5637b29cadbcd375d8a69c224b1f39d13ab3a2f/ESEM_SIM.Rdata?raw=true"
 load(url(dataURL))
 closeAllConnections()
 #Run ESEM Invariance Script
